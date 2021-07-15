@@ -93,6 +93,14 @@ main > .landingPageBanner > p {
   grid-template-columns: 1fr 1fr;
 }
 
+.projectBio > section > aside > div > h1 {
+  margin-bottom: 5px;
+}
+
+.projectBio > section > aside > div > p {
+  margin-top: 0;
+}
+
 .projectBio > section > div,aside {
   border: solid #555 2px;
   margin: 10px;
