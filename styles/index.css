@@ -6,6 +6,13 @@ html, body {
   box-sizing:content-box;
 }
 
+a {
+  color: #444;
+  text-decoration: none;
+}
+
+
+
 .container {
   width:78%;
   margin: 0 auto;
@@ -44,7 +51,16 @@ main {
 }
 
 main > .bio {
+  border: solid black 2px;
   grid-column: 1 / 2;
+  display: grid;
+  align-items: center;
+  padding-bottom: 10vh;
+}
+
+.bio img {
+  width: 50%;
+  border-radius: 1.8px;
 }
 
 main > .projects {
