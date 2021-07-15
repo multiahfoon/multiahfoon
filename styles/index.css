@@ -59,6 +59,21 @@ main > .landingPageBanner {
   margin: 0 auto 20vh 5vw;
 }
 
+main > .landingPageBanner > h2 {
+  margin-bottom: 0;
+  font-size: 2rem;
+}
+
+main > .landingPageBanner > h1 {
+  margin-top: 5px;
+  margin-bottom: 15px;
+  font-size: 3rem;
+}
+
+main > .landingPageBanner > p {
+  margin-top: 0px;
+}
+
 
 .banner {
   display: grid;
