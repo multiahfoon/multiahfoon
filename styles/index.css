@@ -73,4 +73,10 @@ main > .projects {
   display: grid;
   grid-template-columns: 1fr 1fr;
   border: solid black 2px;
+  padding: 35px 0;
+}
+
+.projectBio aside {
+  display: grid;
+  align-items: center;
 }
