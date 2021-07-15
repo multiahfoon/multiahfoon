@@ -67,6 +67,13 @@ main > .projects {
   grid-column: 2 / 5;
 }
 
+.banner {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  padding: 1vh 0 5vh;
+}
+
 .projects {
   /* border: solid black 2px; */
   display: grid;
