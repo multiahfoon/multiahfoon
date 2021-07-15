@@ -1,0 +1,66 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #444;
+  box-sizing:content-box;
+}
+
+.container {
+  width:78%;
+  margin: 0 auto;
+  border: solid black 2px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+header > nav > ul {
+  list-style-type: none;
+  display: flex;
+  padding-left: 0;
+}
+
+header > nav > ul > li{
+  padding-left: 0.9vw;
+}
+
+li > a {
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+a[href^="mailto:"] {
+  color: #444;
+}
+
+main {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 1vw;
+}
+
+main > .bio {
+  grid-column: 1 / 2;
+}
+
+main > .projects {
+  grid-column: 2 / 5;
+}
+
+.projects {
+  /* border: solid black 2px; */
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  column-gap: 10px;
+  row-gap: 5px;
+}
+
+.projects img {
+  width: 100%;
+  border: solid black 1px;
+}
