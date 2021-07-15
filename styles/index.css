@@ -64,3 +64,13 @@ main > .projects {
   width: 100%;
   border: solid black 1px;
 }
+
+.projectBio img {
+  width: 100%;
+}
+
+.projectBio > section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border: solid black 2px;
+}
