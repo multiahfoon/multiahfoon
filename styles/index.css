@@ -2,12 +2,12 @@ html, body {
   margin: 0;
   padding: 0;
   font-family: Arial, Helvetica, sans-serif;
-  color: #444;
+  color: #555;
   box-sizing:content-box;
 }
 
 a {
-  color: #444;
+  color: #555;
   text-decoration: none;
 }
 
@@ -16,13 +16,16 @@ a {
 .container {
   width:78%;
   margin: 0 auto;
-  border: solid black 2px;
+  /* border: solid black 2px; */
 }
 
 header {
   display: flex;
   justify-content: space-between;
   align-items: baseline;
+  border-bottom: solid #555 1px;
+  border-radius: 1px;
+  margin-bottom: 20px;
 }
 
 header > nav > ul {
@@ -41,7 +44,7 @@ li > a {
 }
 
 a[href^="mailto:"] {
-  color: #444;
+  color: #555;
 }
 
 main {
@@ -51,7 +54,7 @@ main {
 }
 
 main > .bio {
-  border: solid black 2px;
+  /* border: solid black 2px; */
   grid-column: 1 / 2;
   display: grid;
   align-items: center;
@@ -85,7 +88,9 @@ main > .projects {
 
 .projects img {
   width: 100%;
-  border: solid black 1px;
+  /* border: solid black 1px; */
+  -webkit-box-shadow: 5px 5px 50px 50px rgba(0,0,0,0.02); 
+  box-shadow: 5px 5px 50px 50px rgba(0,0,0,0.02);
 }
 
 .projectBio img {
