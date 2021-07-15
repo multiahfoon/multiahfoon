@@ -65,6 +65,7 @@ main > .landingPageBanner {
   justify-content: center;
   align-items: center;
   padding: 1vh 0 5vh;
+  border-top: solid #555 2px;
 }
 
 .projectBio img {
@@ -74,12 +75,22 @@ main > .landingPageBanner {
 .projectBio > section {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-gap: 15px;
-  border: solid black 2px;
-  padding: 35px 0;
 }
 
-.projectBio aside {
+.projectBio > section > div,aside {
+  border: solid #555 2px;
+  margin: 10px;
+}
+
+.projectBio > section > div {
+  margin-left: 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.projectBio > section > aside {
   display: grid;
   align-items: center;
+  margin-right: 0;
+  padding: 0 20px;
 }
